@@ -1,0 +1,19 @@
+torch>=2.2.0
+torchvision>=0.17.0
+numpy
+opencv-python
+scikit-image
+scipy
+onnx
+onnxruntime-gpu
+pillow
+facenet-pytorch  # for MTCNN fallback only
+requests
+tqdm
+pydantic
+matplotlib
+# albumentations  # optional, commented out to avoid opencv-python-headless conflict
+hsemotion  # emotion model
+facexlib  # provides RetinaFace PyTorch implementation
+pytest  # testing framework
+insightface  # for automatic ArcFace model download
