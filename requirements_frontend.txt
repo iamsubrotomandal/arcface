@@ -1,0 +1,22 @@
+# Face Recognition System - Frontend Requirements
+
+# Core web framework
+streamlit>=1.28.0
+
+# Image processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Scientific computing
+numpy>=1.24.0
+
+# Backend integration (already installed)
+torch>=2.0.0
+torchvision>=0.15.0
+facenet-pytorch>=2.5.3
+
+# HSEmotion for emotion recognition
+hsemotion>=0.2.0
+
+# Additional utilities
+typing-extensions>=4.7.0

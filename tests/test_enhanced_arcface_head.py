@@ -8,10 +8,11 @@ import torch.nn as nn
 import torch.nn.functional as F
 import numpy as np
 import sys
+import os
 from pathlib import Path
 
 # Add project root to path
-sys.path.append('.')
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from models.arcface import ArcFaceHead, ArcFaceRecognizer
 

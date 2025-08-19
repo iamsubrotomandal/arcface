@@ -7,11 +7,12 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 import sys
+import os
 import traceback
 from pathlib import Path
 
 # Add project root to path
-sys.path.append('.')
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from models.arcface import ArcFaceRecognizer, ArcFaceHead
 

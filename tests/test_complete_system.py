@@ -4,6 +4,12 @@ Verifies both pipelines match the original specifications
 """
 
 import torch
+import sys
+import os
+
+# Add project root to path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from pipelines.still_image_pipeline import StillImageFacePipeline
 from pipelines.video_pipeline import LiveVideoFacePipeline
 

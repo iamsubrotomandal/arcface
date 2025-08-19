@@ -5,6 +5,12 @@ Tests for FAS-TD (Face Anti-Spoofing Temporal Difference) model
 import pytest
 import torch
 import torch.nn as nn
+import sys
+import os
+
+# Add project root to path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from models.fas_td import FAS_TD, create_fas_td_model, TemporalDifferenceBlock, SpatialAttention
 
 class TestFASTD:
